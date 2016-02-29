@@ -1,4 +1,4 @@
-package io.springloops.grok.api.exception
+package me.springloops.grok.api
 
 /*
  * Copyright 2016 Springloops (SungMin Oh)
@@ -19,18 +19,10 @@ package io.springloops.grok.api.exception
 
 
 /**
- * Created by springloops on 2016. 2. 24..
- *
- * Not used, too much c style..
+ * Created by springloops on 2016. 2. 28..
  */
 
-@deprecated
-object GrokError {
-  val GROK_OK = 0
-  val GROK_ERROR_FILE_NOT_ACCESSIBLE = 1
-  val GROK_ERROR_PATTERN_NOT_FOUND = 2
-  val GROK_ERROR_UNEXPECTED_READ_SIZE = 3
-  val GROK_ERROR_COMPILE_FAILED = 4
-  val GROK_ERROR_UNINITIALIZED = 5
-  val GROK_ERROR_NOMATCH = 6
+
+class Converter {
+
 }

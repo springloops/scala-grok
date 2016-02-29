@@ -1,4 +1,4 @@
-package io.springloops.grok.api.exception
+package me.springloops.grok.api.exception
 
 /*
  * Copyright 2016 Springloops (SungMin Oh)
